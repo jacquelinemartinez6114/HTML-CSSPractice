@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+body{
+    width:auto;
+    height:auto;
+    font-family:"roboto";
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    /* overflow: visible; */
+    background-color: rgb(255, 255, 255);
+    font-family: 'roboto';
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.514);
+  }
+  
+  .active {
+    background-color: #ffffff;
+  }
+
+
+  /* Google main logo */
+  .center{
+      display:block;
+      margin-left: auto;
+      margin-right:auto;
+      padding-top: 15%;
+      padding-bottom: 40px;
+      width: 345px;
+      height: 120px;
+      z-index: -1;
+  }
+/* Google main logo END */
+
+
+/* Search Bar BEGIN */
+    .box{
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+        width: 600px;
+        height: 10px;
+        background-color: white;
+        border-radius: 30px;
+        border: 1px solid #E2E2E2;
+        box-shadow: 1px 0px 3px rgb(231, 231, 231);
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    /* Font awesome magnifying glass search icon */
+    .box > i{
+        font-size: 17px;
+        color: rgb(161, 161, 161);
+    }
+
+    /* Invisible typing bar */
+    .box > input{
+        flex: 1;
+        height: 40px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+      /* Google voice command logo picture */
+    img {
+        width: 30px;
+        height: auto;
+      }
+     /* Google voice command logo picture END */
+
+/* Search Bar END */
+
+
+
+   /* Google search and I'm Feeling Lucky buttons BEGIN */
+      .button{
+        background-color: #f0f0f0ad;
+        color:rgb(68, 68, 68);
+        border: none;
+        text-align: center;
+        padding: 12px 25px;
+        font-weight:100;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'roboto';
+        display: inline-block;
+        margin: 35px 5px ;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .buttons{
+          text-align: center;
+      }
+      /* Google search and I'm Feeling Lucky buttons END */
+
+
+
+      /* Biden link tag BEGIN*/
+      .link{
+          text-align: center;
+          text-decoration: none;
+          font-family: 'roboto';
+          font-stretch: expanded;
+      }
+       /* Biden link tag END */
+
+
+
+      
+/* Footer BEGIN */
+
+#footer {
+    background-color: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+  
+  #footer ul {
+    height: 100%;
+  }
+  
+  #footer li {
+    padding-left: 27px;
+    font-size: 14px;
+  }
+  
+  #footer li a {
+    color: #666;
+  }
+  
+  #footer-left {
+    float: left;
+    background-color: #F2F2F2;
+  }
+  
+  #footer-right {
+    float: right;
+    padding-right: 27px;
+    background-color: #F2F2F2;
+  }
+
+  .footer-links{
+    background-color: #F2F2F2;
+    font-weight: 600;
+  }
+
+  #footer-middle {
+    margin: 0 auto;
+    padding-right: 150px;
+    background-color: #F2F2F2;
+  }
+/* Footer END */
+
+  
+
+
+
+
+
